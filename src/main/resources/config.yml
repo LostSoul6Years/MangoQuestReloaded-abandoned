@@ -1,0 +1,163 @@
+#【選擇插件運作語言】
+#目前僅支援：
+#zh_TW: 繁體中文
+#zh_CN: 簡體中文
+#en_US: 英文 (測試版本)
+
+#【MAIN PLUGIN LANGUAGE CONFIGURATION】
+#select the main plugin language
+language: "en_US"
+
+#【是否每次登入提醒玩家語言】
+# whether to notify players their language selection on join
+notifylanguageonjoin: true
+
+#is per player language enabled?
+#【是否開啓玩家語言選項】
+playerLanguageEnabled: true
+
+#【玩家語言選擇】
+# 讓玩家選擇以下的語言:
+#allow player to select languages below:
+playerLanguage:
+- zh_TW
+- zh_CN
+- en_US
+
+#【是否啓用bungeecord指令】
+#enable bungeecord support for this plugin
+enablebungeecordsupport: true
+
+#【使用bungeecord指令的所需權限】
+#permission required to run bungeecord command in quest trigger
+bungeecordperm: "mangoquestreloaded.bungeecord"
+
+#【discordsrv 是否啓用discordsrv】
+# self-explanatory lololol?
+enablediscordsrv: true
+
+#【discordsrv 插件所使用的頻道名稱】
+# the channel discordsrv uses to send quest messages
+discordsrvchannel: "omegalul"
+
+#【使用自己修改過的語系檔案】
+# use modified language files
+useModifiedLanguage: false
+
+#【玩家資料儲存類型】
+# 使用資料庫，請將此處調整為"sql"或"mongodb"。
+# 若不使用則可設為"yml"。
+#PLAYER DATA SAVE TYPE
+# CURRENTLY SUPPORTING yml,sql or mongodb
+# please follow the case and dont make it uppercase
+# the plugin will break im not even joking
+saveType: "yml"
+
+#【資料庫設定】
+# 請填入正確的連線資料以便插件連接資料庫。
+# DATABASE SETTINGS OBVIOUSLY
+databaseAddress: "localhost"
+databasePort: 3306
+databaseName: "sample"
+databaseUser: "root"
+databasePassword: "1234"
+
+#【SQL資料庫重載】
+# 爲應對javaSQL内存問題,設定SQL重載間隔
+# SQL DATABASE CACHE CLEAR INTERVAL
+# CAN BE USED TO COMBAT JAVA SQL BUG 
+databaseClearInterval: 24000
+
+#【插件前綴】
+# 使用聲明：
+# 更改插件前綴是為各位服主在訊息辨別上更加方便，
+# 但更改此前綴並不代表你可以聲明MQ為你的自製插件，
+# MQ一直以來的精神為不收費與開源，作者開放此設定也是經過良久考慮，
+# 請大家對插件有基本的尊重，感謝配合。
+# blah blah blah, just some terms of usage from the previous author
+# dont abuse plugin prefix though because you are not allowed to 
+# or i will report you to fbi jk 
+pluginPrefix: "&6MangoQuest>"
+
+#【除錯模式】
+# 等級 0 - 不顯示任何除錯訊息
+# 等級 1 - 顯示資訊性除錯訊息(ex. 未連接至某些選擇性安裝插件)
+# 等級 2 - 顯示玩家小部分行動訊息(ex. 讀取玩家配置、新玩家註冊等)
+# 等級 3 - 顯示玩家某些部分行動訊息(ex. 玩家接取任務、放棄任務時顯示訊息)
+# 等級 4 - 顯示玩家所有部分行動訊息(ex. 顯示所有玩家任務進度)
+# 等級 5 - 災難。(作者專用)
+#debug level
+#from level 0-5 
+#debug levels more intense as level rises
+debugLevel: 0
+
+#【每隔X秒儲存玩家資料】
+#系統會每隔X秒就儲存一次玩家資料，以免玩家資料流失。
+saveIntervalInSeconds: 600
+
+
+#【是否右鍵NPC開啟對話選單】
+#關掉就只能使用指令來接任務。
+useRightClickMenu: true
+
+#【玩家最大任務數量】
+# MAX AMOUNT OF QUESTS ONE CAN TAKE
+maxQuestAmount: 4
+
+#【登入時傳送讀取完成訊息】
+# POP DATA LOAD COMPLETE MESSAGE WHEN LOGGED IN
+popLoginMessage: true
+
+#【是否啟用記分板系統】
+# SELF EXPLANATORY
+enableScoreboard: true
+
+#【是否使用MYTHICMOBS新版 (版本大於5.0.2) false(假)/true(真)】
+# ENABLE MM NEW VERSION SUPPORT (VERSION > 5.0.2), BOOLEAN VALUE(FALSE/TRUE)
+enablemmnewsupport: false
+
+#【記分板上可接受的任務之顯示數量】
+# THE LIMIT OF QUESTS SHOWN ON SCOREBAORD
+scoreboardMaxCanTakeQuestAmount: 3
+
+#【使用NPC效果】
+# ENABLE PARTICLE EFFECTS WHICH HOVER ABOVE NPC.
+useParticleEffect: true
+
+#【使用較寬鬆的物品判定】
+# 開啟後，系統將只檢查物品的「名稱」以及「lore」作為判斷依據(色碼仍須完全一致)
+# LESS STRICT ITEM CHECK
+# WHEN ENABLED, THE SYSTEM ONLY CHECK THE ITEM'S NAME AND LORE (COLOR CODE HAS TO BE THE SAME)
+useWeakItemCheck: false
+
+#【開放玩家跳過劇情】
+# ENABLE CONV SKIP
+enableSkip: false
+
+#【任務對話物件執行間距(單位：毫秒)】
+#【Interval When executing conv actions】
+conversationActionInterval: 25
+
+# 【預設標題/副標題發送設定】
+#淡入
+fadein: 5
+#逗留
+stay: 5
+#淡出
+fadeout: 5
+
+
+# 【是否翻譯物品/實體名稱】
+#enable item/entity translation to names specified in translations.yml 
+#default tarnslation is in chinese
+translateitementity: true
+
+# 【是否讓插件支援跨伺服器有不同任務】
+#適合: SQL/MONGODB 伺服器
+#令插件能夠讀取不存在的任務進度
+#以應對若A伺服器有任務ABC 而 B 伺服器有任務BCD， 會造成錯誤的問題
+#enable multi-server progress storage with different quests
+#Enable reading non-existent quests to be compatible for situations where servers have different quests
+#Applicable for: SQL/MONGODB servers
+enabledifferentialquestsystem: true
+

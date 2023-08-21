@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="dependencies/bungeecord-chat-1.16-R0.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/apprentice/eclipse-workspace/MangoQuest/dependencies/spigot-1.20.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/apprentice/eclipse-workspace/MangoQuest/dependencies/spigot-api-1.20.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.19.3-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-api-1.19-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="dependencies/Citizens-2.0.29ALPHA.jar"/>
+	<classpathentry kind="lib" path="dependencies/Citizens-2.0.30-b2876.jar"/>
+	<classpathentry kind="lib" path="dependencies/DiscordSRV-Build-1.24.0 (1).jar"/>
+	<classpathentry kind="lib" path="dependencies/mcMMO-CRACKED.jar"/>
+	<classpathentry kind="lib" path="dependencies/MythicMobs.jar"/>
+	<classpathentry kind="lib" path="dependencies/NexEngine.jar"/>
+	<classpathentry kind="lib" path="dependencies/paper-1.19.2-120.jar"/>
+	<classpathentry kind="lib" path="dependencies/PlaceholderAPI-2.11.2.jar"/>
+	<classpathentry kind="lib" path="dependencies/QuantumRPG.jar"/>
+	<classpathentry kind="lib" path="dependencies/Shopkeepers-2.16.3.jar"/>
+	<classpathentry kind="lib" path="dependencies/SkillAPI.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.19-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.10-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.8.3-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.11.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.12.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.13.2.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.13.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.14.4.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.15.2.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.16.1.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.16.3.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.16.4.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.17.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.18.2.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.18.2-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.18-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.19.2.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.19.3.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.19.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.8.4-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="dependencies/spigot-1.9-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="dependencies/Vault.jar"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/apprentice/eclipse-workspace/MangoQuest/dependencies/spigot-1.19.4-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
