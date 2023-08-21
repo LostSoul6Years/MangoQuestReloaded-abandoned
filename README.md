@@ -1,4 +1,4 @@
-# MangoQuestReloaded-abandoned
+# MangoQuestReloaded 
 ## 芒果任務重載版源代碼 (因私人問題放棄維護，任何人也可以幫忙維護)
 
 這個專案就是整個eclipse專案扔上來
