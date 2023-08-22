@@ -1,0 +1,44 @@
+messages:
+  dragonmission:
+    isembed: false
+    content:
+    - "<player> 已經完成了屠龍任務!"
+    - "<player> 獲得了10000個比特幣"
+  killnotch:
+    isembed: true
+    settings: #可以移除不需要的項目,例如不需要顔色就移除color: 39A8A8
+      color: 39A8A8    
+      title: "<player> 完成了任務:摧毀minecraft 點我開[任務資訊]"
+      titleurl: "http://www.twdtc.net/uploads/1/1/1/4/111471635/7857857_orig.png"
+      authorinfo:
+        name: "冒險日記伺服器"
+        url: "http://www.twdtc.net/"
+        iconUrl: "https://i.imgur.com/4d3TeGZ.png"        
+      description: "描述:<player> 殺死了Notch和bill gate!"
+      footer:
+        text: "更新日期:"
+        iconUrl: "http://www.twdtc.net/uploads/1/1/1/4/111471635/logo.png"
+      thumbnail:
+        url: "http://www.twdtc.net/uploads/1/1/1/4/111471635/logo.png"
+      time: "2022-03-03 12:33:34" #footer 配合thumbnail
+      image:
+        url: "https://thumbs.dreamstime.com/b/mission-complete-stamp-mission-complete-grunge-vintage-stamp-isolated-white-background-mission-complete-sign-153585554.jpg"
+    content:    
+      1:
+        key: "剩餘生命"
+        value: "2000 hp"
+        inline: true
+      2:
+        key: "手持裝備:"
+        value: "自在極意功完全版劍"
+        inline: true           
+      3:
+        inline: false
+      4:
+        key: "玩家等級:"
+        value: "99999999"
+        inline: true
+      5:
+        key: "玩家MP:"
+        value: "100000"  
+        inline: true   

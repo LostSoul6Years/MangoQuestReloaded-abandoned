@@ -1,0 +1,87 @@
+Conversations:
+  Help:
+    NPC: 0
+    ConversationName: "村長的請求"
+    StartTriggerConversation: true
+    AcceptMessage: "&7&o「好，我很願意幫忙！」"
+    AcceptActions:
+    - "WAIT#30"
+    - "NPC_TALK#那麼就拜託你了！@0"
+    - "FINISH#true"
+    DenyMessage: "&7&o「不好意思，我還有別的事情要辦...」"
+    DenyActions:
+    - "WAIT#30"
+    - "NPC_TALK#好吧，那麼就不麻煩你了！@0"
+    - "NPC_TALK#願意幫忙的話再和我說！@0"
+    - "FINISH#false"
+    ConversationActions:
+    - "NPC_TALK#你好啊，冒險者，歡迎來到村莊！@0"
+    - "NPC_TALK#不知道你是否能來幫我一個忙呢？@0"
+    - "BUTTON#"
+    - "SENTENCE#&7&o「什麼忙？」"
+    - "NPC_TALK#最近那些在森林裡的蜘蛛令村民非常頭痛...@0"
+    - "NPC_TALK#你能幫村子去清除那些惱人的蜘蛛嗎？@0"
+    - "TAKE_QUEST#"
+    StartQuest: Help
+    QuestFullMessage: "&c任務已滿，無法接受任務！"
+  Test001:
+    NPC: 1
+    ConversationName: "初次會面"
+    ConversationActions:
+    - "NPC_TALK#唷，冒險者，你看起來頭腦蠻聰明的嘛！@1"
+    - "BUTTON#"
+    - "SENTENCE#&7&o「是嗎...」"
+    - "NPC_TALK#看看你能不能答對我所出的問題！@1"
+    - "BUTTON#"
+    - "SENTENCE#&7&o「等等...我還沒答應要回答啊...」"
+    - "CHANGE_LINE#"
+    - "CHOICE#Choice001"
+  NPC01_20:
+    FriendConversation: true
+    NPC: 1
+    FriendPoint: 20
+    ConversationName: "你的名子？"
+    ConversationActions:
+    - "SENTENCE#&7&o「其實我一直想問你，你這個名子是誰取的啊？」"
+    - "NPC_TALK#嘛，這還不是某個正在測試的人害的！@1"
+    - "BUTTON#"
+    - "SENTENCE#&7&o「是誰？」"
+    - "WAIT#20"
+    - "NPC_TALK#我不能說...說了他會把我刪除的...@1"
+    - "BUTTON#"
+    - "SENTENCE#&7&o「...」"
+    - "WAIT#20"
+    - "SENTENCE#&7&o(原來當一個NPC還有這樣的苦衷啊...)"
+    - "BUTTON#"
+Choices:
+  Choice001:
+    "Question": "「1+1等於多少？不會連這個都答不出來吧！」"
+    "Options":
+      '1':
+        "OptionName": "我當然知道啊，答案不就是2！"
+        "OptionActions":
+        - "CHANGE_PAGE#"
+        - "SENTENCE#&7&o「我當然知道啊，答案不就是2！」"
+        - "SENTENCE#&c&lNPC&0：「哈哈！上當了吧！在電腦這個只有0和1的世界，10進位都不算數！」"
+        - "BUTTON#"
+      '2':
+        "OptionName": "哼哼，看我是87，我還不答3！"
+        "OptionActions":
+        - "CHANGE_PAGE#"
+        - "SENTENCE#&7&o「答案是3！」"
+        - "SENTENCE#&c&lNPC&0：「笨蛋！連1+1=2都不知道，你小學老師怎麼教的啊？」"
+        - "BUTTON#"
+      '3':
+        "OptionName": "呃...我不知道耶，怎麼辦...？"
+        "OptionActions":
+        - "CHANGE_PAGE#"
+        - "SENTENCE#&7&o「呃，我不知道，你可以教教我嗎？」"
+        - "SENTENCE#...&8(NPC默默地嘆氣看著你)"
+        - "BUTTON#"
+      '4':
+        "OptionName": "二進位還是十進位？"
+        "OptionActions":
+        - "CHANGE_PAGE#"
+        - "SENTENCE#&7&o「這也要看你問的是二進位還是十進位決定吧。」"
+        - "SENTENCE#&c&lNPC&0：「...不錯！小子有前途，剛剛前面好幾個笨蛋被我耍了，就你沒被騙！」"
+        - "BUTTON#"

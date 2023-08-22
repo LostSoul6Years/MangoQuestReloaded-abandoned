@@ -1,0 +1,22 @@
+package me.Cutiemango.MangoQuest.objects;
+
+public enum RequirementType
+{
+	LEVEL,
+	MONEY,
+	QUEST,
+	ITEM,
+	FRIEND_POINT,
+	PERMISSION,
+	ALLOW_DESCENDANT,
+	QRPG_CLASS,
+	QRPG_LEVEL,
+	SKILLAPI_CLASS,
+	SKILLAPI_LEVEL,
+	WORLD_TIME,
+	SERVER_TIME,
+	PLACEHOLDER_API,
+	MCMMO_LEVEL;
+	
+	
+}
